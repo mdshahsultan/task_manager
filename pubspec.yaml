@@ -61,12 +61,15 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/
+    - assets/images/logo.svg
+    - assets/images/bg.svg
 
-  fonts:
-    - family: poppins
-      fonts:
-        - asset: fonts/Poppins-Regular.ttf
+    - assets/fonts/Poppins-Regular.ttf
+
+#  fonts:
+#    - family: poppins
+#      fonts:
+#       - assets: fonts/Poppins-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
