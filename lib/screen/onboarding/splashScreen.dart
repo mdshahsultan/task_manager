@@ -19,7 +19,14 @@ class _splashScreenState extends State<splashScreen> {
           Screenackground(context),
           Container(
             padding: EdgeInsets.all(30),
-            child: SvgPicture.asset("assets/images/splash_logo.svg", alignment: Alignment.center,),
+            child: SvgPicture.asset(
+              "assets/images/splash_logo.svg",
+              alignment: Alignment.center,
+              // colorFilter: ColorFilter.mode(
+              //   Colors.white,
+              //   BlendMode.srcIn,
+              // ),
+            ),
           )
         ],
       ),
