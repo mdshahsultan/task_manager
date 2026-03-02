@@ -60,9 +60,9 @@ DecoratedBox AppDropDownStyle(child){
   );
 }
 
-SvgPicture Screenackground(context){
+SvgPicture Screenbackground(context){
   return SvgPicture.asset(
-      'assets/images/splash_bg.svg',
+      'assets/images/Background22-01.svg',
       alignment: Alignment.center,
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
@@ -73,6 +73,29 @@ SvgPicture Screenackground(context){
     // ),
   );
 }
+
+
+/// Splash Background
+// Widget splashBackground(BuildContext context) {
+//   return SvgPicture.asset(
+//     'assets/images/Background22-01.svg',
+//     alignment: Alignment.center,
+//     width: MediaQuery.of(context).size.width,
+//     height: MediaQuery.of(context).size.height,
+//     fit: BoxFit.cover,
+//   );
+// }
+
+/// Splash Logo
+// Widget splashLogo({double size = 150}) {
+//   return SvgPicture.asset(
+//     'assets/images/splash_logo-01.svg',
+//     width: size,
+//     height: size,
+//   );
+// }
+
+
 
 ButtonStyle AppButtonStyle(){
   return ElevatedButton.styleFrom(

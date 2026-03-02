@@ -13,21 +13,16 @@ class _splashScreenState extends State<splashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //Stack used for two components. First one main background and Second logo
+      //Stack use for two layer show at a time
       body: Stack(
         children: [
-          Screenackground(context),
+          Screenbackground(context),
           Container(
             padding: EdgeInsets.all(30),
-            child: SvgPicture.asset(
-              "assets/images/splash_logo.svg",
-              alignment: Alignment.center,
-              // colorFilter: ColorFilter.mode(
-              //   Colors.white,
-              //   BlendMode.srcIn,
-              // ),
+            child: Center(
+              child: SvgPicture.asset('assets/images/splash_logo-01.svg', alignment: Alignment.center,),
             ),
-          )
+          ),
         ],
       ),
     );
