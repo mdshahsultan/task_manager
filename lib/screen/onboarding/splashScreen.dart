@@ -16,11 +16,19 @@ class _splashScreenState extends State<splashScreen> {
       //Stack use for two layer show at a time
       body: Stack(
         children: [
-          Screenbackground(context),
-          Container(
-            padding: EdgeInsets.all(30),
-            child: Center(
-              child: SvgPicture.asset('assets/images/splash_logo-01.svg', alignment: Alignment.center,),
+          Positioned.fill(
+            child: SvgPicture.asset(
+              'assets/images/Background22-01.svg',
+              fit: BoxFit.cover,
+            ),
+          ),
+
+          Center(
+            child: Padding(
+              padding: EdgeInsets.all(30),
+              child: SvgPicture.asset(
+                'assets/images/splash_logo-01.svg',
+              ),
             ),
           ),
         ],

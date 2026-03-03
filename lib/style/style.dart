@@ -66,7 +66,7 @@ SvgPicture Screenbackground(context){
       alignment: Alignment.center,
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      fit: BoxFit.cover,
+      fit: BoxFit.scaleDown,
     //   colorFilter: ColorFilter.mode(
     //     colorGreen,
     //     BlendMode.srcIn,
