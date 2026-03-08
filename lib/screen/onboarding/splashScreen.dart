@@ -22,7 +22,6 @@ class _splashScreenState extends State<splashScreen> {
               fit: BoxFit.cover,
             ),
           ),
-
           Center(
             child: Padding(
               padding: EdgeInsets.all(30),

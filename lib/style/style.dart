@@ -66,13 +66,20 @@ SvgPicture Screenbackground(context){
       alignment: Alignment.center,
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      fit: BoxFit.scaleDown,
+      fit: BoxFit.cover,
     //   colorFilter: ColorFilter.mode(
     //     colorGreen,
     //     BlendMode.srcIn,
     // ),
   );
 }
+
+// SvgPicture Screenbackground(context){
+//   return SvgPicture.asset(
+//     'assets/images/Background22-01.svg',
+//     fit: BoxFit.cover,
+//   );
+// }
 
 
 /// Splash Background
