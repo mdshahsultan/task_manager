@@ -35,12 +35,12 @@ class _registrationScreenState extends State<registrationScreen> {
                 SizedBox(height: 20),
                 TextFormField(decoration: AppInputDecoration("Password"),),
                 SizedBox(height: 20),
-                TextFormField(decoration: AppInputDecoration("Confirm Password"),),
-                SizedBox(height: 20),
+                // TextFormField(decoration: AppInputDecoration("Confirm Password"),),
+                // SizedBox(height: 20),
                 Container(
                   child: ElevatedButton(
                     onPressed: (){},
-                    child: SuccessButtonChild("Login"),
+                    child: SuccessButtonChild("Registration"),
                     style: AppButtonStyle(),
                   ),
                 ),
