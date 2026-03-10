@@ -32,6 +32,8 @@ TextStyle Head6Text(textColor){
 
 InputDecoration AppInputDecoration(label){
   return InputDecoration(
+      labelStyle: TextStyle(color: Colors.black45),
+      floatingLabelStyle: TextStyle(color: Colors.green),
     focusedBorder: const OutlineInputBorder(
         borderSide: const BorderSide(color: colorGreen, width: 1),
     ),

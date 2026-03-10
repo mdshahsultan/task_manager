@@ -26,7 +26,7 @@ class _setPasswordScreenState extends State<setPasswordScreen> {
               children: [
                 Text("Set Password", style: Head1Text(colorDarkBlue),),
                 SizedBox(height: 1),
-                Text("Minimum length password 8 character with letter & number combination!", style: Head6Text(colorLightGray),),
+                Text("Minimum length 8 character with letter & number combination!", style: Head6Text(colorLightGray),),
                 SizedBox(height: 20),
                 TextFormField(decoration: AppInputDecoration("Password"),),
                 SizedBox(height: 20),
