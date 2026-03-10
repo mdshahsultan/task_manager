@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../style/style.dart';
 
 class setPasswordScreen extends StatefulWidget {

@@ -25,7 +25,7 @@ class _loginScreenState extends State<loginScreen> {
               children: [
                 Text("Get Started With", style: Head1Text(colorDarkBlue),),
                 SizedBox(height: 1),
-                Text("Learn with rubel", style: Head6Text(colorLightGray),),
+                Text("Learn with rubel!", style: Head6Text(colorLightGray),),
                 SizedBox(height: 20),
                 TextFormField(decoration: AppInputDecoration("Email Address"),),
                 SizedBox(height: 20),

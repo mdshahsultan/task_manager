@@ -23,7 +23,7 @@ class _registrationScreenState extends State<registrationScreen> {
               children: [
                 Text("Join With Us", style: Head1Text(colorDarkBlue),),
                 SizedBox(height: 1),
-                Text("Learn with rubel", style: Head6Text(colorLightGray),),
+                Text("Learn with rubel!", style: Head6Text(colorLightGray),),
                 SizedBox(height: 20),
                 TextFormField(decoration: AppInputDecoration("First Name"),),
                 SizedBox(height: 20),

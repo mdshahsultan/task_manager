@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Task Manager",
       //home: HomeScreen(),
-      initialRoute: "/login",
+      initialRoute: "/setPassword",
       routes: {
         "/" : (context) => splashScreen(),
         "/login" : (context) => loginScreen(),

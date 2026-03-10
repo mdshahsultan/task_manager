@@ -32,8 +32,8 @@ TextStyle Head6Text(textColor){
 
 InputDecoration AppInputDecoration(label){
   return InputDecoration(
-      labelStyle: TextStyle(color: Colors.black45),
-      floatingLabelStyle: TextStyle(color: Colors.green),
+      labelStyle: TextStyle(color: Colors.black54),
+      floatingLabelStyle: TextStyle(color: Colors.green.shade600),
     focusedBorder: const OutlineInputBorder(
         borderSide: const BorderSide(color: colorGreen, width: 1),
     ),
@@ -110,6 +110,7 @@ ButtonStyle AppButtonStyle(){
   return ElevatedButton.styleFrom(
     elevation: 1,
     padding: EdgeInsets.zero,
+    //foregroundColor: Colors.white,
     backgroundColor: Colors.transparent,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
   );
@@ -120,6 +121,7 @@ TextStyle ButtonTextStyle(){
     fontSize: 14,
     fontFamily: 'poppins',
     fontWeight: FontWeight.w400,
+    color: Colors.white,
   );
 }
 

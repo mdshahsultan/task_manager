@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:task_manager/screen/onboarding/setPasswordScreen.dart';
 import '../../style/style.dart';
 
 class emailVerificationScreen extends StatefulWidget {
@@ -28,11 +28,11 @@ class _emailVerificationScreenState extends State<emailVerificationScreen> {
                 SizedBox(height: 1),
                 Text("Enter your valid email address!", style: Head6Text(colorLightGray),),
                 SizedBox(height: 20),
-                TextFormField(decoration: AppInputDecoration("Info@gmail.com"),),
+                TextFormField(decoration: AppInputDecoration("write email here!"),),
                 SizedBox(height: 20),
                 Container(
                   child: ElevatedButton(
-                    onPressed: (){},
+                    onPressed: (){setPasswordScreen();},
                     child: SuccessButtonChild("Next"),
                     style: AppButtonStyle(),
                   ),
