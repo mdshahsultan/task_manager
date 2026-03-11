@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         "/login" : (context) => loginScreen(),
         "/registration" : (context) => registrationScreen(),
         "/emailVerification" : (context) => emailVerificationScreen(),
-        "/pinVerification" : (context) => pinVerificationScreen(),
+        "/pinVerification" : (context) => PinVerificationScreen(),
         "/setPassword" : (context) => setPasswordScreen(),
       },
     );

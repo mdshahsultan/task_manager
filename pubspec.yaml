@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.2.3
   http: ^1.6.0
-  pin_code_fields: ^9.1.0
+  pin_code_fields:
   fluttertoast: ^9.0.0
 
 dev_dependencies:
